@@ -4,7 +4,7 @@ public class AddingTwoStr {
 	public static void main(String[] args) {
 		
 		String str1 = "prajkta";
-		String str2 = "paygide";
+		String str2 = "paygude";
 		
 		// approch 1 
 		String c = str1.concat(str2);
