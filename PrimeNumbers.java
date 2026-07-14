@@ -20,6 +20,76 @@ public class PrimeNumbers {
     }
 }
 /*
+ * Alright—let’s make it **super simple**, no theory.
+
+---
+
+# 🧠 Think like this:
+
+You have a number → **num = 8**
+
+You ask:
+👉 “Can anyone divide 8?”
+
+---
+
+# 🔁 Loop meaning:
+
+```java
+for (int i = 2; i < num; i++)
+```
+
+👉 Means:
+
+> Try dividing 8 by:
+
+```text
+2, 3, 4, 5, 6, 7
+```
+
+---
+
+# 🔍 Check one by one
+
+### i = 2
+
+```text
+8 ÷ 2 = 4 → works ❌
+```
+
+👉 Found one divisor → STOP
+👉 So 8 is **NOT prime**
+
+---
+
+# 🟢 Now take num = 7
+
+Try:
+
+```text
+7 ÷ 2 → no  
+7 ÷ 3 → no  
+7 ÷ 4 → no  
+7 ÷ 5 → no  
+7 ÷ 6 → no  
+```
+
+👉 Nobody can divide 7
+👉 So 7 is **prime ✅**
+
+---
+
+# 🎯 Final simple meaning
+
+👉 Loop is asking:
+
+> “Can any number divide this?”
+
+* If YES → ❌ Not prime
+* If NO → ✅ Prime
+
+ */
+/*
 Outer Loop Iteration:
 
 The outer loop starts at num = 2 and increments up to n. For each value of num, it initiates the inner loop to check its primality.
