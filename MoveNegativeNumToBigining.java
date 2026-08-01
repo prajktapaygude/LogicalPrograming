@@ -6,7 +6,6 @@ public class MoveNegativeNumToBigining {
         int len = a.length;
         int j = 0; // This will track the position to swap negative numbers to
         int temp;
-
         // Move negative numbers to the beginning
         for (int i = 0; i < len; i++) {
             if (a[i] < 0) { // Check if the current element is negative
@@ -19,12 +18,11 @@ public class MoveNegativeNumToBigining {
                 j++; // Move the position forward for the next negative number
             }
         }
-
         // Print the array
         for (int i = 0; i < len; i++) {
             System.out.print(a[i] + " ");
         }
-    
+
 }
 }
 
